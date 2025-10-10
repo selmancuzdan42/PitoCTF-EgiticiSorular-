@@ -191,7 +191,7 @@ QR Kodu okutuyoruz. [crackme99.rar](https://github.com/cihangungor/pitoctf/blob/
 
 İlk başta ben, **GHidra** ile yapay zeka ortak çalıştığından onunla çözmek istedim. Ama olmadı ve bana **dnSpy** önerdi. Ardından onunla açtım. 
 
-İlk açtığımızda bizi: _crackme99.exe.png_ karşılıyor.
+İlk açtığımızda bizi: ![Crackme.exe](resimler/crackme99exe.png) karşılıyor.
 
 Sonra Form1'i inceliyoruz: 
 private void button1_Click(object sender, EventArgs e)
@@ -238,5 +238,6 @@ password = `99`
 VEEE FLAGIMIZ BULUNDU! 🏁
 
 ![FLAG](resimler/flag.jpg)
+
 
 
