@@ -108,6 +108,7 @@ unzip level3.xlsm -d level3_extracted
 ```
 
 Sonra makro kodunu buluyoruz. Peki esas soru, makro nedir?
+
 **Makro** (Office/Excel/Word bağlamında): Belirli işlemleri otomatikleştirmek için yazılan küçük programlardır. Microsoft Office belgelerinde genelde **VBA (Visual Basic for Applications)** diliyle yazılır ve belge içine gömülü durur.
 
 ```bash
@@ -239,6 +240,7 @@ password = `99`
 VEEE FLAGIMIZ BULUNDU! 🏁
 
 ![FLAG](resimler/flag.jpg)
+
 
 
 
