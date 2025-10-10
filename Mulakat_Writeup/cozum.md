@@ -93,7 +93,7 @@ rockyou
  Gerçekten. Boşa zaman kaybetme.
 ```
 
-Biraz inceledikten sonra, <!--  sifremiz:abce1286Fnmg!aaRfKCstugASX  --> böyle bir yorum satırı olacağını fark edeceksiniz.
+Biraz inceledikten sonra, **sifremiz:abce1286Fnmg!aaRfKCstugASX**  böyle bir yorum satırı olacağını fark edeceksiniz.
 Vee taadaaa! şifreyi bulduk, hemen zip'ten çıkarıyoruz level 3'e geçiyoruz.
 
 Level 3'ü RAR'dan çıkardık. İki adet dosya var. Gene Level 4.rar ve bir excel dosyası.
@@ -239,6 +239,7 @@ password = `99`
 VEEE FLAGIMIZ BULUNDU! 🏁
 
 ![FLAG](resimler/flag.jpg)
+
 
 
 
