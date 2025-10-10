@@ -215,6 +215,7 @@ Bu kısım dikkatimizi çekiyor. Ve kontrol burada gerçekleşiyor. `num == 99` 
 Şart 2: `textBox1`'deki Değer (Gizli Kullanıcı Adı/Şifre)
 
 Koşulun ilk kısmı:
+```bash
 text==Form1.msj.Substring(0,4)
 
 text değişkeni textBox1'den alınan değerdir. Bu değerin, Form1.msj string'inin ilk 4 karakterine eşit olması gerekiyor.
@@ -229,7 +230,7 @@ Form1.msj.Substring(0, 4) ifadesi, bu string'in 0. indisten başlayarak 4 karakt
 “F l a g is not...” ⟹ **Flag**
 
 Çözüm: `textBox1`'e girilmesi gereken değer **Flag** olmalıdır.
-
+```
 Programı çalıştırıp, giriyoruz. Bizi login yeri karşılıyor.
 
 Kullanıcı adı = `flag`
@@ -238,6 +239,7 @@ password = `99`
 VEEE FLAGIMIZ BULUNDU! 🏁
 
 ![FLAG](resimler/flag.jpg)
+
 
 
 
