@@ -71,6 +71,7 @@ EOF
 ```
 
 Uzuuunca bir çıktı elde ediyoruz:
+```bash
 Archive:  level2.docx
   inflating: level2_extracted/[Content_Types].xml  
   inflating: level2_extracted/_rels/.rels  
@@ -90,7 +91,7 @@ Hiçbir sorumuzda
 rockyou
  kullanmadık.
  Gerçekten. Boşa zaman kaybetme.
-
+```
 
 Biraz inceledikten sonra, <!--  sifremiz:abce1286Fnmg!aaRfKCstugASX  --> böyle bir yorum satırı olacağını fark edeceksiniz.
 Vee taadaaa! şifreyi bulduk, hemen zip'ten çıkarıyoruz level 3'e geçiyoruz.
@@ -271,3 +272,4 @@ password = `99`
 VEEE FLAGIMIZ BULUNDU! 🏁
 
 ![FLAG](resimler/flag.jpg)
+
