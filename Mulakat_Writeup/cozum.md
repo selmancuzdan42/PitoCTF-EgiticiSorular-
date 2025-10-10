@@ -119,56 +119,22 @@ Makro kodunu strings ile çıkartıyoruz:
 strings level3_extracted/xl/vbaProject.bin | more
 ```
 
-Strings çıktısını girince zaten direkt şifre bizi karşılıyor. 🔑
-└─$ strings level3_extracted/xl/vbaProject.bin | more
- pass:gorunmezsifre
-Birinci say
- girin:
+```bash
+$ strings level3_extracted/xl/vbaProject.bin | more
+pass:gorunmezsifre
+Birinci say girin:
 Hesap Makinesi - 1/3$
-kinci say
- girin:
+ikinci say girin:
 Hesap Makinesi - 2/3$
-Hangi i
-lemi yapmak istiyorsunuz? (+, -, *, /)
+Hangi işlemi yapmak istiyorsunuz? (+, -, *, /)
 Hesap Makinesi - 3/3
-ra b
-lme hatas
-ersiz i
-lem!
-Sonu
-Hesap MakinesiA@@
-ersiz giri
-Attribut
-e VB_Nam
-e = "Mod
-ule1"
-ub Hesap
-Makinesi ()
-m aText 
-As S
-JDou8ble
-resul
-' pas
-s:gorunm
-ezsifre
-On Error
- GoTo Ha
-nputBox(
-"Birinci
- say
-:", "
-z - 1/32"
-:xit 
-CDb|l(
-        ?Han
-gi i
-i yapmak
- istiyor
-sunuz? (
-+, -, *,h /)
-ASele
-ct Case 
-Trim(opD)
+ra bölme hatası
+Geçersiz işlem!
+Sonuç: Hesap Makinesi
+pass:gorunmezsifre
+On Error GoTo Handler
+InputBox("Birinci say:", "Hesap Makines
+```
 
 VEE TA DAA! 4. Levelin şifresinide bulduk.
 pass:gorunmezsifre
@@ -272,4 +238,5 @@ password = `99`
 VEEE FLAGIMIZ BULUNDU! 🏁
 
 ![FLAG](resimler/flag.jpg)
+
 
